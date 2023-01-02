@@ -1,0 +1,41 @@
+@import "https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Montserrat:wght@500;700;900&display=swap";
+
+body {
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat, repeat;
+  height: max-content;
+  background-size: auto;
+
+  /* background-position: center; */
+  background-size: cover;
+  background-color: hsl(225deg, 100%, 94%);
+  color: hsl(224deg, 23%, 55%);
+  font-family: "Big Shoulders Display", cursive;
+  font-family: Montserrat, sans-serif;
+}
+
+.content {
+  background-color: white;
+  margin-top: 3rem;
+  border-radius: 15px;
+}
+
+.img-hero {
+  width: fill-available;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  color: hsl(223deg, 47%, 23%);
+  padding: 1rem;
+}
+
+.text {
+  text-align: center;
+  line-height: 1.65rem;
+  padding: 0 1rem 1rem;
+}
