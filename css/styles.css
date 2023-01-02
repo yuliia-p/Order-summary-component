@@ -96,8 +96,9 @@ button:hover {
 
 /* Desktop */
 
-/* @media screen { min-width: 756px; }
-
-{
-
-} */
+@media screen and (min-width: 756px) {
+  .container {
+    width: 40%;
+    margin: auto;
+  }
+}
