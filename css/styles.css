@@ -5,8 +5,6 @@ body {
   background-repeat: no-repeat, repeat;
   height: max-content;
   background-size: auto;
-
-  /* background-position: center; */
   background-size: cover;
   background-color: hsl(225deg, 100%, 94%);
   color: hsl(224deg, 23%, 55%);
@@ -16,7 +14,7 @@ body {
 
 .content {
   background-color: white;
-  margin-top: 3rem;
+  margin: 3rem 1rem;
   border-radius: 15px;
   box-shadow: -1px 15px 27px -16px rgba(56, 41, 224, 0.5);
 }
